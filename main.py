@@ -1,4 +1,6 @@
 import streamlit as st
+import math
+
 st.write("안녕하세요")
 print("안녕하세요.")
 
@@ -9,3 +11,4 @@ for i in range(data):
   print("안녕하세요")
   st.write("안녕하세요")
 
+st.write(ceil(33.33333333333333))
