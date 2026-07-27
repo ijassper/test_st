@@ -1,6 +1,14 @@
 import streamlit as st
 
-uploaded_file = st.file_uploader("기준정보 가져오기", type=['csv','xlsx'])
+st.title("가져올 기준정보 sql 만들기")
+
+st.button("버튼1")
+st.button("버튼2")
+st.button("버튼3")
+st.button("버튼4")
+st.button("버튼5")
+
+uploaded_file = st.file_uploader("기준정보 파일 선택", type=['csv','xlsx'])
 
 st.title("가져온 기준정보 리스트")
 
