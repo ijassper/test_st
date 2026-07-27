@@ -9,3 +9,5 @@ select_list = st.selectbox("SENDFAB 보낼 라인선택",line_list)
 #selected_line = line_list[i]
 
 st.write(f"라인 ID : {select_list}")
+
+st.button("검색")
