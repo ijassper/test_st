@@ -5,7 +5,7 @@ st.title("가져올 기준정보 sql 만들기")
 st.button("라인")
 st.button("제품")
 st.button("스탭")
-st.textarea("가지고있는 명령문 붙여넣기")
+st.text_input("가지고있는 명령문 붙여넣기")
 st.button("검색")
 
 uploaded_file = st.file_uploader("기준정보 파일 선택", type=['csv','xlsx'])
