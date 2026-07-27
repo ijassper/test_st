@@ -75,8 +75,10 @@ if df.empty:
 else:
     # Apply search filter if provided
     if search_term:
-        mask = df["STEPID"].astype(str).str.contains(search_term, case=False, na=False) |
-               df["PPID"].astype(str).str.contains(search_term, case=False, na=False)
+        mask = (
+            df["STEPID"].astype(str).str.contains(search_term, case=False, na=False) |
+            df["PPID"].astype(str).str.contains(search_term, case=False, na=False)
+        )
         df = df[mask]
 
     # Metrics
