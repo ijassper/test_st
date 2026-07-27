@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.button("기준정보 가져오기")
+uploaded_file = st.file_uploader("기준정보 가져오기", type=['csv','xlsx'])
 
 st.title("가져온 기준정보 리스트")
 
