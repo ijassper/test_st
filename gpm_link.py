@@ -1,6 +1,10 @@
 import streamlit as st
 
-st.button("가져오기")
+st.button("기준정보 가져오기")
+
+st.title("가져온 기준정보 리스트")
+
+
 
 line_list = [
     "12", "12EF", "13", "15", "U2", "16", "U3", "17", 
