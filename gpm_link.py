@@ -8,4 +8,4 @@ select_list = st.selectbox("SENDFAB 보낼 라인선택",line_list)
 
 #selected_line = line_list[i]
 
-st.write(f"선택된 보낼 라인 : {selected_list}")
+st.write(f"선택된 보낼 라인 : {select_list}")
